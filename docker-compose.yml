@@ -1,0 +1,9 @@
+version: '3'
+services:
+  my_server:
+    build:
+     context: ./
+     dockerfile: Dockerfile
+    container_name: 'super-nginx'
+    ports:
+      - 8080:8080
