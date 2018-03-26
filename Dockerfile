@@ -8,7 +8,7 @@ ADD /sites-available/app.com /etc/nginx/sites-available/app.com
 
 COPY index.php /var/www/html/
 
-RUN ln -s /etc/nginx/sites-available/app.com /etc/nginx/sites-enabled/
+RUN ln -s /etc/nginx/sites-available/app.com /etc/nginx/sites-enabled/app.com
 
 WORKDIR /var/www/html
 
